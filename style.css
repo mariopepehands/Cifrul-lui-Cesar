@@ -1,0 +1,47 @@
+body {
+    background-color: blanchedalmond;
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px black;
+    text-align: center;
+    width: 50%;
+    top: 20%;
+    position: absolute;
+}
+h1, h2 {
+    color: beige;
+}
+input, button {
+    padding: 10px;
+    width: 95%;
+    margin: 10px 0;
+
+}
+button {
+    background-color: rgb(207, 180, 117);
+    border: none;
+    border-radius: 5px;
+    color: rosybrown;
+    cursor: help;
+
+}
+button:hover {
+    background-color: rgb(190, 80, 102);
+    transform: translateY(-2px);
+}
+button:active {
+    background-color: rgb(190, 80, 102);
+    transform: translateY(2px);
+}
+p { 
+    font-size: 1.2em;
+    color: #505050;
+}
